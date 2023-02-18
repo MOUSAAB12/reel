@@ -1,0 +1,181 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+* {
+  box-sizing: border-box;
+}
+.container {
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  gap: 328px;
+  height: 100vh;
+}
+.nav {
+  background-color: #f3f5fa;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.getmanager {
+  text-align: center;
+  padding: 30px;
+}
+.listes {
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 12px;
+  /* identical to box height, or 75% */
+
+  /* gris */
+
+  color: #515164;
+  display: flex;
+  flex-direction: column;
+
+  gap: 30px;
+  list-style: none;
+}
+.text {
+  color: #ff355e;
+}
+
+.themes {
+  display: grid;
+  grid-template-columns: max-content 1fr min-content;
+  align-items: center;
+  justify-self: center;
+  gap: 12.5px;
+}
+.down {
+  margin-right: 29.75px;
+}
+.last {
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+}
+.ligne {
+  width: 200px;
+  background-color: #b2b2b2;
+  height: 0.25px;
+  border: 0.1px;
+}
+
+.para {
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  /* identical to box height, or 100% */
+
+  /* gris */
+
+  color: #515164;
+}
+.personnaliser {
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 12px;
+  /* identical to box height, or 67% */
+
+  letter-spacing: -0.02em;
+
+  /* Red */
+
+  color: #ff355e;
+}
+.dashbord {
+  display: grid;
+  height: 100%;
+}
+
+.paragraphe {
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 12px;
+  /* identical to box height, or 67% */
+
+  letter-spacing: -0.02em;
+
+  /* Red */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ff355e;
+  margin: auto;
+}
+.dash {
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  /* identical to box height */
+
+  letter-spacing: -0.02em;
+
+  /* black */
+
+  color: #25253d;
+}
+.merge {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.container2 {
+  display: flex;
+  flex-direction: column;
+}
+.side {
+  display: grid;
+  grid-template-columns: 340px 1fr;
+  height: 400px;
+  gap: 46px;
+}
+.group {
+  background-color: #f3f5fa;
+  border-radius: 20px;
+  text-align: center;
+}
+.picture {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: 60px;
+}
+.textez {
+  display: flex;
+  flex-direction: column;
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  letter-spacing: -0.02em;
+
+  color: #1c252c;
+}
+.btn {
+  /* black */
+  color: #25253d;
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  /* identical to box height, or 107% */
+  border: 1px solid #25253d;
+  padding: 10px 20px;
+  border-radius: 67px;
+  background-color: #f3f5fa;
+}
