@@ -1,0 +1,292 @@
+body {
+  padding: 0px;
+  margin: 0px;
+
+  background-color: white;
+  box-sizing: border-box;
+}
+* {
+  box-sizing: border-box;
+}
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  border-radius: 30px;
+  width: 100%;
+  box-sizing: border-box;
+  height: 100vh;
+  padding: 2rem;
+}
+.information {
+  height: 100%;
+
+  align-content: center;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+
+  background-color: #fbfbfb;
+  border-radius: 30px;
+  justify-content: center;
+  align-items: center;
+}
+.pict {
+  height: 223.97px;
+  width: 329px;
+}
+.paragraphe {
+  width: 521px;
+  height: 80px;
+
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  text-align: center;
+}
+.text {
+  margin: 0;
+  color: #ff355e;
+}
+.texte {
+  color: #25253d;
+}
+.list {
+  margin: 10px;
+  width: 453px;
+  height: 91.26px;
+}
+.themes {
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  align-items: center;
+  gap: 5px;
+}
+.unordered {
+  width: 400px;
+  height: 12px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  list-style-type: none;
+
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+}
+.identification {
+  height: 100%;
+  box-sizing: border-box;
+  align-content: center;
+
+  background-color: white;
+  border-radius: 30px;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  justify-content: center;
+}
+.identifier {
+  width: 144.29px;
+  height: 32px;
+  align-items: center;
+
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 31px;
+  /* identical to box height, or 130% */
+
+  color: #25253d;
+}
+.email {
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 15px;
+  /* identical to box height, or 107% */
+
+  text-transform: lowercase;
+
+  color: #b2b2b2;
+  width: 522.75px;
+  height: 52px;
+
+  border: 0.5px #b2b2b2 solid;
+  padding: 20px;
+  border-radius: 67px;
+}
+
+.password {
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 15px;
+  /* identical to box height, or 107% */
+  padding: 20px;
+
+  text-transform: lowercase;
+
+  color: #b2b2b2;
+  width: 522.75px;
+  height: 52px;
+
+  border: 0.5px #b2b2b2 solid;
+
+  border-radius: 67px;
+}
+.oublié {
+  width: 164.39px;
+  height: 12px;
+
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 6px;
+  /* or 43% */
+
+  color: #ff355e;
+}
+.btn {
+  width: 103px;
+  height: 12px;
+
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 12px;
+  /* identical to box height, or 59% */
+
+  /* white */
+
+  color: #ffffff;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+
+  width: 523px;
+  height: 52px;
+
+  background: #ff355e;
+  border-radius: 500px;
+  border: none;
+}
+.ligne {
+  display: flex;
+  gap: 7px;
+  align-items: center;
+}
+
+.ligne1,
+.ligne2 {
+  width: 246px;
+  background-color: #b2b2b2;
+  height: 0.65px;
+  border: 0.5px;
+}
+
+.or {
+  width: 13px;
+  height: 12px;
+  margin-bottom: 4px;
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 12px;
+  /* identical to box height, or 100% */
+
+  text-align: center;
+
+  color: #b2b2b2;
+}
+.Google {
+  box-sizing: border-box;
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  gap: 10px;
+  isolation: isolate;
+
+  width: 523px;
+  height: 48px;
+
+  background: #ffffff;
+  border: 1px solid #eaeaea;
+  border-radius: 500px;
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 12px;
+  /* identical to box height, or 74% */
+
+  color: #b2b2b2;
+}
+
+.compte {
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  /* identical to box height, or 74% */
+  text-align: center;
+  color: #b2b2b2;
+}
+
+.inscrire {
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 6px;
+  /* identical to box height, or 43% */
+
+  color: #ff355e;
+}
+.utilisateur {
+  max-width: 317px;
+  margin: auto;
+
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 17px;
+  /* or 170% */
+  text-align: center;
+
+  color: #949494;
+}
+.merge {
+  display: flex;
+  flex-direction: column;
+}
+.probleme {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}

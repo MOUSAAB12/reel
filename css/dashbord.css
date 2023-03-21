@@ -1,0 +1,322 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+* {
+  box-sizing: border-box;
+}
+.aside-wrapper {
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  justify-items: center;
+
+  width: 100%;
+  height: 100vh;
+}
+.aside-section {
+  background-color: #f3f5fa;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.aside-getmanager {
+  text-align: center;
+  padding: 30px;
+}
+.aside-listes {
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 12px;
+  /* identical to box height, or 75% */
+
+  /* gris */
+
+  color: #515164;
+  display: flex;
+  flex-direction: column;
+
+  gap: 30px;
+  list-style: none;
+}
+.aside-text {
+  color: #ff355e;
+}
+
+.aside-themes {
+  display: grid;
+  grid-template-columns: max-content 1fr min-content;
+  align-items: center;
+  justify-self: center;
+  gap: 12.5px;
+}
+.aside-down {
+  margin-right: 29.75px;
+}
+.aside-last {
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+}
+.aside-ligne {
+  width: 200px;
+  background-color: #b2b2b2;
+  height: 0.25px;
+  border: 0.1px;
+}
+
+.aside-para {
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  /* identical to box height, or 100% */
+
+  /* gris */
+
+  color: #515164;
+}
+.check {
+  background-color: #d9d9d9;
+  border: none;
+}
+.main-section {
+  height: 100vh;
+  width: 100%;
+  overflow: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.main-nav {
+  display: flex;
+
+  justify-content: space-between;
+}
+.main-txt {
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 40px;
+  /* identical to box height */
+
+  letter-spacing: -0.02em;
+
+  /* black */
+
+  color: #25253d;
+}
+h5 {
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 12px;
+  /* identical to box height, or 67% */
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.02em;
+
+  /* Red */
+
+  color: #ff355e;
+}
+.main-wrapper {
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  gap: 4rem;
+}
+.hero-box {
+  background-color: #f3f5fa;
+  border-radius: 15px;
+  width: 100%;
+  padding: 2rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.hero-txt {
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 28px;
+  max-width: 250px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #1c252c;
+}
+
+.hero-btn {
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 12px;
+  letter-spacing: -0.02em;
+  color: #25253d;
+  background: #f3f5fa;
+  border-radius: 21px;
+  width: max-content;
+  border: 0.9px solid #25253d;
+  padding: 0.5rem 0.9rem;
+}
+.feature-cadre {
+  display: flex;
+  flex-direction: column;
+  gap: 3.5rem;
+  align-items: flex-start;
+}
+.feature-merge {
+  display: flex;
+  gap: 4rem;
+  align-items: center;
+  margin-top: -1.5rem;
+}
+.feature-liste {
+  display: flex;
+  gap: 4rem;
+}
+.feature-li {
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 10px;
+  line-height: 18px;
+  /* identical to box height */
+  list-style: none;
+  letter-spacing: -0.01em;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.feature-ligne {
+  border: 0.5px solid #d9d9d9;
+  width: 450px;
+}
+.feature-txt {
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 19px;
+  line-height: 29px;
+  /* identical to box height */
+
+  letter-spacing: -0.02em;
+
+  /* black */
+
+  color: #25253d;
+}
+
+h4 {
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+
+  /* identical to box height */
+  line-height: 0px;
+  letter-spacing: -0.02em;
+
+  /* black */
+
+  color: #25253d;
+}
+h6 {
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 0px;
+  /* identical to box height, or 67% */
+
+  letter-spacing: -0.02em;
+
+  /* Red */
+
+  color: #ff355e;
+}
+.hero-wripper {
+  display: grid;
+  grid-template-columns: 283px 1fr;
+  gap: 4rem;
+}
+h2 {
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 19px;
+  line-height: 29px;
+  letter-spacing: -0.02em;
+  color: #25253d;
+}
+.feature-cube {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 4rem;
+}
+.feature-cubes {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 3rem;
+}
+.ligne {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+}
+.hero-bottom {
+  margin-top: 1rem;
+}
+.feature-dis {
+  margin-top: -2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.projet {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 250px;
+  justify-content: center;
+  justify-content: center;
+}
+.tache {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 150px;
+}
+.projet img {
+  height: 18px;
+  width: 18px;
+}
+.tache img {
+  height: 18px;
+  width: 18px;
+}
+.feature-projet {
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  max-width: 103px;
+
+  text-align: center;
+  letter-spacing: -0.02em;
+
+  color: #abafb1;
+}
